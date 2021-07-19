@@ -22,21 +22,19 @@ function getInput(){
   }
 }
 //Calculate func
-function calculateDay(){
+function CaldayOfWeek(day, month, year) {
     getInput();
-    dayOfWeek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
-    console.log(dayOfWeek); //Test the calculateDay function
-    return (Math.floor(dayOfWeek));
-    if (dayOfWeek < 0){
-    return dayOfWeek = dayOfWeek * -1;
-    }
-else if (dayOfWeek > 0) {
-  return dayOfWeek;
+    var century = math.floor((14 - month) / 12);
+   var year = year - a;
+    var month = month + 12 * a - 2;
+    var dayOfMonth = (day + y + math.floor (y / 4) - math.floor (y / 100) +
+    null(year / 400) + math.floor ((31 * m) / 12)) % 7;
+    return d;
 }
 
 //main caller func
- function checkDayOfWeek(){
-     day = calculateDay();
+ function checkdayOfWeek(){
+     d = CaldayOfWeek();
       checkGender();
       console.log("The function runs");//Test chackDayOfWeek function
 }
