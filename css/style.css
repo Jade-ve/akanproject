@@ -11,11 +11,9 @@ h1{
   padding: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: #626f92;
   box-shadow: 1px 0px 2px #ffffff;
 }
 .left{
-  background-image: url('https://cdn.dribbble.com/users/3409191/screenshots/6302425/image.png');
   background-size: center;
   height: 670px;
   border-radius: 10px 0 0 10px;
@@ -57,17 +55,8 @@ h1{
   width: 200px;
   border-radius: 20px;
 }
-.q-text{
-  color: #fdd043;
-  font-size: 30px;
-  font-weight: bold;
-  margin: 80px 20px 20px 10px;
-}
 #result{
   margin-top: 30px;
   color: #000000;
   font-size: 28px;
-}
-.rounded-circle{
-  margin-left: 40%;
 }
